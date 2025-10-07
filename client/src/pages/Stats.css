@@ -1,0 +1,69 @@
+.stats-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;       /* centers horizontally */
+  justify-content: center;   /* centers vertically if needed */
+  padding: 40px 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  min-height: 100vh;
+  background: #f0f2f5;
+}
+
+.stats-container h2 {
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+  color: #333;
+  text-align: center;
+}
+
+/* Summary Cards */
+.summary-cards {
+  display: flex;
+  justify-content: center;  /* center horizontally */
+  align-items: center;      /* center vertically */
+  gap: 30px;
+  margin-bottom: 50px;
+  flex-wrap: wrap;
+}
+
+.card {
+  background: #fff;
+  padding: 25px 35px;
+  border-radius: 15px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+  text-align: center;
+  min-width: 150px;
+}
+
+.card h3 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  color: #555;
+}
+
+.card p {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #000dff;
+}
+
+/* Charts */
+.chart-wrapper {
+  width: 90%;
+  max-width: 900px;
+  background: #fff;
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+  margin-bottom: 50px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;       /* center chart horizontally */
+}
+
+.chart-wrapper h4 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #555;
+}

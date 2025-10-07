@@ -1,0 +1,113 @@
+.dashboard-container {
+  max-width: 1000px;
+  margin: 40px auto;
+  padding: 0 20px;
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.dashboard-container h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.add-habit-container {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+
+.add-habit-container input {
+  padding: 10px 15px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  width: 250px;
+  font-size: 1rem;
+}
+
+.add-btn {
+  padding: 10px 20px;
+  background-color: #ff6b6b;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: all 0.2s ease;
+}
+
+.add-btn:hover {
+  background-color: #ff5252;
+  transform: translateY(-2px);
+}
+
+.habits-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.habit-card {
+  background: #f7f7f7;
+  border-radius: 15px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+  padding: 20px;
+  width: 220px;
+  text-align: center;
+  transition: transform 0.2s;
+}
+
+.habit-card:hover {
+  transform: translateY(-5px);
+}
+
+.habit-card h3 {
+  margin-bottom: 10px;
+  font-size: 1.3rem;
+  color: #222;
+}
+
+.habit-card p {
+  margin-bottom: 15px;
+  font-size: 1rem;
+  color: #555;
+}
+
+.habit-buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.increment-btn,
+.delete-btn {
+  padding: 6px 12px;
+  border-radius: 8px;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: all 0.2s ease;
+}
+
+.increment-btn {
+  background-color: #6b73ff;
+  color: white;
+}
+
+.increment-btn:hover {
+  background-color: #5258ff;
+  transform: translateY(-2px);
+}
+
+.delete-btn {
+  background-color: #ff4444;
+  color: white;
+}
+
+.delete-btn:hover {
+  background-color: #ff2a2a;
+  transform: translateY(-2px);
+}
